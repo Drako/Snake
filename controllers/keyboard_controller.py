@@ -7,7 +7,6 @@ from controllers.controller import Controller
 from objects import Snake
 from util import Direction
 
-
 KeyMap = NamedTuple('KeyMap', [('up', int), ('down', int), ('left', int), ('right', int)])
 
 

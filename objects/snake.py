@@ -4,9 +4,9 @@ from typing import Deque
 from pygame.pixelarray import PixelArray
 from pygame.surface import Surface
 
-from . import GameObject
-from util.colors import WHITE
 from util import Direction, Point
+from util.colors import WHITE
+from . import GameObject
 
 
 class Snake(GameObject):

@@ -4,7 +4,7 @@ import pygame
 
 from controllers import KeyboardController, KeyMap
 from objects import Goal, Score, Snake, Field
-from util import random_rect, Rect, random_direction, Direction, random_point, Point
+from util import random_rect, Rect, random_direction, random_point, Point
 from util.collisions import rect_contains_point
 from util.colors import BLACK, WHITE
 
