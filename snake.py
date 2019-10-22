@@ -30,7 +30,6 @@ def check_collisions(snake: Snake, screen: pygame.Surface, goal: Goal, field: Fi
             goal.move_to(generate_goal_area(snake=snake, field=field))
             snake.grow()
         else:
-            print(f'Game over! Your score: {len(snake)}')
             return False
     return True
 
@@ -72,6 +71,7 @@ def main():
         running = check_collisions(snake, screen, goal, field)
         clock.tick(120)
 
+    print(f'Game over! Your score: {len(snake)}')
     pygame.quit()
 
 

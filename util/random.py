@@ -1,6 +1,8 @@
 from random import randint
 
-from . import Rect, Point, Direction
+from .directions import Direction
+from .point import Point
+from .rect import Rect
 
 
 def random_rect(*, size: int, area: Rect) -> Rect:

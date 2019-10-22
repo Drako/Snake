@@ -3,7 +3,7 @@ from pygame.surface import Surface
 
 from util import Rect
 from util.colors import WHITE
-from . import GameObject
+from .game_object import GameObject
 
 
 class Field(GameObject):
